@@ -1,3 +1,5 @@
+/* Your CSS will have the following updates: */
+
 /* Basic Reset */
 * {
     margin: 0;
@@ -11,37 +13,17 @@ body {
     color: #333;
     background-color: #fafafa;
     padding: 20px;
-}
-
-/* Additional Styles for the Try It Out Link/Button */
-.try-it-out {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.try-it-out-button {
-    display: inline-block;
-    background-color: #0056b3;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.try-it-out-button:hover {
-    background-color: #033d75;
+    margin-bottom: 20px; /* Ensures spacing at the bottom of the page */
 }
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #0066ff, #0099ff); /* Gradient background */
+    background: linear-gradient(to right, #29b6f6, #b3e5fc); /* Lighter gradient */
     color: white;
-    padding: 40px 20px; /* Added horizontal padding */
+    padding: 60px 40px; /* Increased padding */
     text-align: center;
     border-radius: 20px;
-    margin-bottom: 20px; /* Added space below the header */
+    margin-bottom: 40px; /* Increased space below the header */
 }
 
 #logo {
@@ -57,31 +39,42 @@ header {
 header h1 {
     font-size: 3em;
     font-weight: 600;
+    margin-bottom: 20px; /* Added margin for spacing */
 }
 
 /* Section Styling */
 section {
     background: white;
     margin: 20px;
-    padding: 40px;
+    padding: 60px; /* Increased padding */
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #2a2a2a;
-    font-size: 2.2em;
-    margin-bottom: 20px;
-    font-weight: 500;
-}
-
+/* Individual Key Feature Box */
 ul {
-    list-style-type: none;
+    padding: 0;
 }
 
 li {
-    margin-bottom: 15px;
-    font-size: 1.1em;
+    background: #e3f2fd; /* Soft blue for feature background */
+    margin-bottom: 30px; /* Increased spacing */
+    padding: 20px; /* Padding inside each feature box */
+    border-radius: 10px; /* Rounded corners for boxes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    list-style-type: none; /* Removes bullet points */
+}
+
+/* First two features with different color */
+li:nth-child(1), li:nth-child(2) {
+    background: #b2dfdb; /* Different color for the first two boxes */
+}
+
+h2, h3 {
+    color: #2a2a2a;
+    font-size: 2.2em;
+    margin-bottom: 30px; /* Increased spacing */
+    font-weight: 500;
 }
 
 /* Footer Styles */
@@ -89,26 +82,44 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0; /* Increased padding */
     border-radius: 20px;
+    margin-top: 40px; /* Increased space above the footer */
 }
 
-/* Utility Classes */
-.container {
-    max-width: 1100px;
-    margin: 20px auto; /* Added top and bottom margins */
-    overflow: hidden;
-    padding: 0 20px; /* Added horizontal padding */
+/* Button Styles */
+.try-it-out-button {
+    display: inline-block;
+    background-color: #29b6f6;
+    color: white;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em; /* Larger font size */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Button shadow for depth */
+}
+
+.try-it-out-button:hover {
+    background-color: #0288d1;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 700px) {
+    header, section, footer {
+        border-radius: 0; /* Removes border-radius on small screens for a full-width look */
+    }
+
     header h1 {
         font-size: 2em;
     }
 
-    .container {
-        width: 95%;
-        padding: 0 20px; /* Added horizontal padding */
+    .container, .try-it-out, header, section, footer {
+        padding: 20px; /* Consistent padding */
+    }
+
+    li {
+        margin-bottom: 20px; /* Adjusts spacing between feature boxes */
     }
 }
