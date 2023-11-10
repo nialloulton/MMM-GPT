@@ -1,0 +1,114 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+/* Additional Styles for the Try It Out Link/Button */
+.try-it-out {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.try-it-out-button {
+    display: inline-block;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.try-it-out-button:hover {
+    background-color: #033d75;
+}
+
+
+/* Header Styles */
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    border-radius: 10px; /* Slightly rounded corners */
+    background-color: white; /* White background for the logo */
+    padding: 5px; /* Padding around the logo */
+}
+
+header h1 {
+    font-size: 3em; /* Increased font size */
+    font-weight: 600; /* Bolder font weight */
+    margin: 0;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2a2a2a;
+    font-size: 2.2em; /* Slightly larger font size for subtitles */
+    margin-bottom: 20px;
+    font-weight: 500; /* Increased font weight for subtitles */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+    background: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 700px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
