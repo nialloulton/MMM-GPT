@@ -8,7 +8,7 @@
 body {
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     line-height: 1.6;
-    color: #333333;
+    color: #333;
     background-color: #fafafa;
     padding: 20px;
 }
@@ -34,36 +34,35 @@ body {
     background-color: #033d75;
 }
 
-
 /* Header Styles */
 header {
-    background-color: #0056b3;
+    background: linear-gradient(to right, #0066ff, #0099ff); /* Gradient background */
     color: white;
-    padding: 40px 0;
+    padding: 40px 20px; /* Added horizontal padding */
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 20px; /* Added space below the header */
 }
 
 #logo {
     width: 150px;
     height: auto;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-    border-radius: 10px; /* Slightly rounded corners */
-    background-color: white; /* White background for the logo */
-    padding: 5px; /* Padding around the logo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
 }
 
 header h1 {
-    font-size: 3em; /* Increased font size */
-    font-weight: 600; /* Bolder font weight */
-    margin: 0;
+    font-size: 3em;
+    font-weight: 600;
 }
 
 /* Section Styling */
 section {
     background: white;
-    margin: 20px 0;
+    margin: 20px;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -71,14 +70,13 @@ section {
 
 h2 {
     color: #2a2a2a;
-    font-size: 2.2em; /* Slightly larger font size for subtitles */
+    font-size: 2.2em;
     margin-bottom: 20px;
-    font-weight: 500; /* Increased font weight for subtitles */
+    font-weight: 500;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
 }
 
 li {
@@ -88,7 +86,7 @@ li {
 
 /* Footer Styles */
 footer {
-    background: #333333;
+    background: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -98,8 +96,9 @@ footer {
 /* Utility Classes */
 .container {
     max-width: 1100px;
-    margin: auto;
+    margin: 20px auto; /* Added top and bottom margins */
     overflow: hidden;
+    padding: 0 20px; /* Added horizontal padding */
 }
 
 /* Responsive Design */
@@ -110,5 +109,6 @@ footer {
 
     .container {
         width: 95%;
+        padding: 0 20px; /* Added horizontal padding */
     }
 }
