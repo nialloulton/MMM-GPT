@@ -82,6 +82,29 @@ h2, h3 {
     margin-bottom: 30px; /* Increased spacing */
     font-weight: 500;
 }
+/* Features Coming Soon Section Styling */
+#features-coming-soon h2 {
+    font-size: 2.5em; /* Larger font size for the section title */
+    color: #333; /* Adjust the color as needed */
+    text-align: center;
+    margin-top: 50px; /* Space above the title */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+#features-coming-soon ul {
+    list-style-type: none; /* Removes default list bullets */
+    padding: 0;
+}
+
+#features-coming-soon li {
+    background: #f0f0f0; /* Light background for each feature placeholder */
+    margin-bottom: 20px; /* Space between placeholders */
+    padding: 15px; /* Padding inside placeholders */
+    border-radius: 8px; /* Rounded corners for placeholders */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-style: italic; /* Italicize the placeholder text */
+    text-align: center;
+}
 
 /* Footer Styles */
 footer {
