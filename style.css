@@ -43,7 +43,7 @@ header {
 
 
 header h1 {
-    font-size: 3em;
+    font-size: 4em; /* Significantly larger font size */
     font-weight: 600;
     margin-bottom: 20px; /* Added margin for spacing */
 }
