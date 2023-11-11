@@ -36,6 +36,12 @@ header {
     padding: 5px;
 }
 
+.logo-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
 header h1 {
     font-size: 3em;
     font-weight: 600;
@@ -79,12 +85,12 @@ h2, h3 {
 
 /* Footer Styles */
 footer {
-    background: #333;
+    background: #555; /* Lighter shade than #333 */
     color: white;
     text-align: center;
-    padding: 30px 0; /* Increased padding */
+    padding: 30px 0;
     border-radius: 20px;
-    margin-top: 40px; /* Increased space above the footer */
+    margin-top: 40px;
 }
 
 /* Button Styles */
