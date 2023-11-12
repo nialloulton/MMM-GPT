@@ -1,0 +1,60 @@
+---
+title: "MMM-GPT"
+format: html
+css: style.css
+---
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<header>
+    <img src="logo.png" alt="MMM-GPT Logo" id="logo">
+    <h1>Expert AI Assistant: Marketing Insights and Strategy</h1>
+</header>
+
+[Try MMM-GPT Now](https://chat.openai.com/g/g-eL2WpdcWt-mmm-gpt){.try-it-out-button style="display: block; margin: auto; background-color: #3399cc; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; width: fit-content;"}
+
+</section>
+
+<section id="about-mmm-gpt">
+    <h2>About MMM-GPT</h2>
+    <p>MMM-GPT is at the forefront of marketing, incorporating the latest in marketing insights and advanced analytics to provide expert advice and strategic pathways that elevate your marketing efforts. It's not just about doing; it's about empowering you with knowledge on how to do it effectively.</p>
+    
+    <h3>Key Areas of Expertise</h3>
+    <ul>
+        <li><strong>Boosting ROI</strong>: Providing insights on using tools like PyMC-Marketing to enhance the effectiveness of marketing campaigns.</li>
+        <li><strong>Understanding Long-Term Impact</strong>: Advising on strategies to assess the long-term effects of marketing activities on key KPIs.</li>
+        <li><strong>Campaign Optimization</strong>: Offering guidance on the optimal timing and content to make marketing efforts more engaging and impactful.</li>
+        <li><strong>Developing Long-Term Strategies</strong>: Aiding in the development of strategies that measure and leverage the enduring impact of marketing.</li>
+        <li><strong>Hyperlocal & Audience Targeting</strong>: Offering insights into geospatial analytics for targeted, region-specific marketing campaigns.</li>
+        <li><strong>Confident Budgeting</strong>: Assisting in creating budgeting models to simulate various scenarios, optimizing expenditure and maximizing returns.</li>
+        <li><strong>Staying Competitive</strong>: Providing real-time data analysis and insights to maintain a competitive edge in the market.</li>
+        <li><strong>Enhancing Customer Lifetime Value (CLV)</strong>: Guiding strategies to increase CLV, focusing on the most profitable customer segments.</li>
+    </ul>
+
+    <p>MMM-GPT empowers you with the how-to of marketing analytics, from building strategic models to writing the code, ensuring that your marketing efforts are not only effective but also ahead of the curve.</p>
+</section>
+
+<section id="features-coming-soon">
+    <h2>Features Coming Soon</h2>
+    <ul>
+        <li>Execute PyMC-Marketing models and visualize results using the Advanced Data Analysis plugin.</li>
+        <li>Enhanced accuracy in building complex models.</li></em></li>
+    </ul>
+</section>
+
+<footer style="color: white; text-align: center; background: #cccccc; padding: 40px 0; border-radius: 10px;">
+    <h3 style="margin-bottom: 50px; color: white;">Brought to you by</h3>
+    <img src="pymc-labs-logo.png" alt="PyMC Labs Logo" style="height: 60px; margin-bottom: 30px;">
+    [Visit PyMC Labs](https://www.pymc-labs.com/){style="display: block; margin: 25px auto; background-color: #3399cc; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; width: fit-content;"}
+
+    <img src="1749-logo.png" alt="1749 Logo" style="height: 100px; margin-bottom: 15px;">
+    [Visit 1749](https://1749.io/){style="display: block; margin: 20px auto; background-color: #3399cc; color: white; padding: 15px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; width: fit-content;"}
+
+    <p style="margin-top: 30px;">&copy; 2023 MMM-GPT. All rights reserved.</p>
+</footer>
+
+
+
+
+
+
